@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card {
+  background: rgba(30, 41, 59, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  animation: fadeIn 0.6s ease;
+}
+
+
+h1 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+
+#pregunta {
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.opciones button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #38bdf8, #3b82f6);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.25s ease;
+}
+
+
+.opciones button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+}
+
+
+.opciones button:active {
+  transform: scale(0.95);
+}
+
+
+#resultado {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+
+button:last-of-type {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background: #22c55e;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:last-of-type:hover {
+  background: #19ae9b;
+  transform: scale(1.05);
+}

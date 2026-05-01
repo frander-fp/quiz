@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Quiz Random</h1>
+
+        <h3 id="pregunta">Cargando...</h3>
+
+        
+        <div id="opciones" class="opciones">
+            <button onclick="responder('Verdadero')">Verdadero</button>
+            <button onclick="responder('Falso')">Falso</button>
+        </div>
+
+        <p id="resultado"></p>
+
+        <button onclick="nuevaPregunta()">Siguiente</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
