@@ -1,0 +1,35 @@
+# Quiz App
+
+Aplicación web interactiva que muestra preguntas aleatorias usando una API y permite responder Verdadero o Falso.
+
+## Funcionalidades
+
+1.Preguntas aleatorias desde una API
+2.Sistema de respuestas (Verdadero / Falso)
+3.Validación de respuestas
+4.Contador de preguntas (5 en total)
+5.Pantalla final con puntaje
+6.Mensaje dinámico según desempeño
+
+### Tecnologías usadas
+1.HTML
+2.CSS
+3.JavaScript
+4.API: https://uselessfacts.jsph.pl/random.json?language=en
+
+#### Estructura del proyecto
+quiz-app/
+index.html
+style.css
+script.js
+
+##### Cómo usar
+Abre el proyecto
+Lee la pregunta
+Selecciona Verdadero o Falso
+Presiona “Siguiente”
+Al final verás tu puntaje
+
+###### Autor
+
+Proyecto desarrollado por Frander Furcal Padilla
